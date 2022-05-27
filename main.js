@@ -1,6 +1,6 @@
 import * as THREE from '../node_modules/three';
 import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
-import SplineLoader from '@splinetool/loader';
+import SplineLoader from '../node_modules/@splinetool/loader';
 
 // camera
 const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 5, 100000);
