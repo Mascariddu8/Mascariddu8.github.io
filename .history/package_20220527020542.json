@@ -1,0 +1,19 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "Scene exported with Spline",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@splinetool/loader": "^0.9.59",
+    "three": "^0.140.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.1"
+  }
+}
